@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.principal {
+    display: flex;
+    flex-grow: 1;
+}
+
+.bar {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+@media(max-width: 640px) {
+    .body {
+        flex-direction: column-reverse;
+    }
+    .bar {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
