@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+}
+.row {
+    margin: 1rem;
+}
+
+.col-sm {
+    background-color: green;
+}
+
+.col-md {
+    background-color: yellow;
+}
+
+.col-lg {
+    background-color: aqua;
+}
+.col-xl {
+    background-color: red;
+}
+
+.col-xxl {
+    background-color: blueviolet;
+}
