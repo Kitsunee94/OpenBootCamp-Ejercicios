@@ -1,0 +1,7 @@
+#elemento-1 {
+    color: rgb(228, 40, 40);   
+}
+
+.compra> .articulos> #elemento-1 {
+    font-size: 2rem;
+}
